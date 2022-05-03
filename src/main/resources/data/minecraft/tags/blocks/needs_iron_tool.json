@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "training:ruby_block",
+    "training:ruby_ore"
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "training:block/ruby_ore" }
+  }
+}

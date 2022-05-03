@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    " G ",
+    "R R"
+  ],
+  "key": {
+    "R": {
+      "item": "training:ruby"
+    },
+    "G": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "training:dowsing_rod"
+  }
+}

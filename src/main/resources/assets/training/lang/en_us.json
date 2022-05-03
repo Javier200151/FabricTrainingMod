@@ -1,3 +1,14 @@
 {
-  "item.training.ruby": "Ruby"
+  "item.training.ruby": "Ruby",
+  "item.training.ruby_nugget": "Ruby Nugget",
+  "item.training.raw_ruby": "Raw Ruby",
+  "item.training.dowsing_rod": "Dowsing Rod",
+
+  "block.training.ruby_block": "Ruby Block",
+  "block.training.ruby_ore": "Ruby Ore",
+
+  "itemGroup.training.ruby": "Ruby Training Tab",
+
+  "item.training.dowsing_rod.no_valuables": "No Valuables found!"
+
 }
