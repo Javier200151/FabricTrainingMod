@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "com.rylod.fabrictraining.Training"
+    ],
+    "client": [
+      "com.rylod.fabrictraining.TrainingClientMod"
     ]
   },
   "mixins": [

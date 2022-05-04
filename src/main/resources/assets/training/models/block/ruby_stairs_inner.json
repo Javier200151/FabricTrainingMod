@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "training:block/ruby_block",
+    "top": "training:block/ruby_block",
+    "side": "training:block/ruby_block"
+  }
+}

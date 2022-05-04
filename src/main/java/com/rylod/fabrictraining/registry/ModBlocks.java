@@ -1,9 +1,7 @@
 package com.rylod.fabrictraining.registry;
 
 import com.rylod.fabrictraining.Training;
-import com.rylod.fabrictraining.registry.custom.ModPressurePlateBlock;
-import com.rylod.fabrictraining.registry.custom.ModStoneBottonBlock;
-import com.rylod.fabrictraining.registry.custom.SpeedyBlock;
+import com.rylod.fabrictraining.registry.custom.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -49,6 +47,21 @@ public class ModBlocks {
 
     public static final Block RUBY_WALL = registerBlock("ruby_wall",
             new WallBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.RUBY);
+
+    public static final Block RUBY_SLAB = registerBlock("ruby_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.RUBY);
+
+    public static final Block RUBY_STAIRS = registerBlock("ruby_stairs",
+            new ModStairsBlock(ModBlocks.RUBY_BLOCK.getDefaultState(), FabricBlockSettings.of(Material.METAL)
+                    .strength(4.0f).requiresTool()), ModItemGroup.RUBY);
+
+    public static final Block RUBY_DOOR = registerBlock("ruby_door",
+            new ModDoorBlock(FabricBlockSettings.of(Material.WOOD)
+                    .strength(4.0f).requiresTool().nonOpaque()), ModItemGroup.RUBY);
+
+    public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
+            new ModTrapdoorBlock(FabricBlockSettings.of(Material.WOOD)
+                    .strength(4.0f).requiresTool().nonOpaque()), ModItemGroup.RUBY);
 
     public static Block registerBlock(String name, Block block, ItemGroup group){
         registerBlockItem(name,block,group);

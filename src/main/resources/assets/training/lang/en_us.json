@@ -14,6 +14,10 @@
   "block.training.ruby_fence": "Ruby Fence",
   "block.training.ruby_wall": "Ruby Wall",
   "block.training.ruby_fence_gate": "Ruby Fence Gate",
+  "block.training.ruby_door": "Kaupen Door",
+  "block.training.ruby_trapdoor": "Kaupen Trapdoor",
+  "block.training.ruby_slab": "Mythril Slab",
+  "block.training.ruby_stairs": "Mythril Stairs",
 
   "itemGroup.training.ruby": "Ruby Training Tab",
 
