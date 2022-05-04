@@ -2,6 +2,9 @@
   "replace": false,
   "values": [
     "training:ruby_block",
-    "training:ruby_ore"
+    "training:ruby_ore",
+    "training:ruby_slab",
+    "training:ruby_stairs",
+    "training:ruby_wall"
   ]
 }

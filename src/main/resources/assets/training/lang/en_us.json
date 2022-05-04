@@ -14,10 +14,10 @@
   "block.training.ruby_fence": "Ruby Fence",
   "block.training.ruby_wall": "Ruby Wall",
   "block.training.ruby_fence_gate": "Ruby Fence Gate",
-  "block.training.ruby_door": "Kaupen Door",
-  "block.training.ruby_trapdoor": "Kaupen Trapdoor",
-  "block.training.ruby_slab": "Mythril Slab",
-  "block.training.ruby_stairs": "Mythril Stairs",
+  "block.training.ruby_door": "Ruby Door",
+  "block.training.ruby_trapdoor": "Ruby Trapdoor",
+  "block.training.ruby_slab": "Ruby Slab",
+  "block.training.ruby_stairs": "Ruby Stairs",
 
   "itemGroup.training.ruby": "Ruby Training Tab",
 
@@ -25,6 +25,12 @@
   "item.training.dowsing_rod.tooltip.shift": "Right Click to find valuables",
   "item.training.dowsing_rod.tooltip.shift.2": "Using the power of the §4RUBY§l!",
   "item.training.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information",
+
+  "item.training.ruby_pickaxe": "Ruby Pickaxe",
+  "item.training.ruby_axe": "Ruby Axe",
+  "item.training.ruby_shovel": "Ruby Shovel",
+  "item.training.ruby_hoe": "Ruby Hoe",
+  "item.training.ruby_sword": "Ruby Sword",
 
   "tooltip.training.ruby_block": "A Magical Block"
 }

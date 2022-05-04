@@ -1,5 +1,8 @@
 {
   "replace": false,
   "values": [
+    "training:ruby_door",
+    "training:ruby_trapdoor",
+    "training:ruby_fence"
   ]
 }
