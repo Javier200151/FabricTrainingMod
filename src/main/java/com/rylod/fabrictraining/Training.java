@@ -2,6 +2,7 @@ package com.rylod.fabrictraining;
 
 import com.rylod.fabrictraining.registry.ModBlocks;
 import com.rylod.fabrictraining.registry.ModItems;
+import com.rylod.fabrictraining.util.ModRegistries;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,5 +16,7 @@ public class Training implements ModInitializer {
     public void onInitialize() {
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
+
+        ModRegistries.registerModStuff();
     }
 }

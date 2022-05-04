@@ -19,6 +19,12 @@ public class ModItems {
     public static final Item RAW_RUBY = registerItems("raw_ruby",
             new Item(new FabricItemSettings().group(ModItemGroup.RUBY)));
 
+    public static final Item SUPER_COAL = registerItems("super_coal",
+            new Item(new FabricItemSettings().group(ModItemGroup.RUBY)));
+
+    public static final Item SANCOCHO = registerItems("sancocho",
+            new Item(new FabricItemSettings().group(ModItemGroup.RUBY).food(ModFoodComponents.SANCOCHO)));
+
     public static final Item DOWSING_ROD = registerItems("dowsing_rod",
             new DowsingRodItem(new FabricItemSettings().group(ModItemGroup.RUBY).maxDamage(16)));
 
