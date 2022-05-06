@@ -5,7 +5,6 @@
   "item.training.dowsing_rod": "Dowsing Rod",
   "item.training.super_coal": "Super Coal",
   "item.training.sancocho": "Sancocho",
-
   "block.training.ruby_block": "Ruby Block",
   "block.training.ruby_ore": "Ruby Ore",
   "block.training.speedy_block": "Speedy Block",
@@ -18,19 +17,21 @@
   "block.training.ruby_trapdoor": "Ruby Trapdoor",
   "block.training.ruby_slab": "Ruby Slab",
   "block.training.ruby_stairs": "Ruby Stairs",
-
   "itemGroup.training.ruby": "Ruby Training Tab",
-
   "item.training.dowsing_rod.no_valuables": "No Valuables found!",
   "item.training.dowsing_rod.tooltip.shift": "Right Click to find valuables",
   "item.training.dowsing_rod.tooltip.shift.2": "Using the power of the §4RUBY§l!",
   "item.training.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information",
-
   "item.training.ruby_pickaxe": "Ruby Pickaxe",
   "item.training.ruby_axe": "Ruby Axe",
   "item.training.ruby_shovel": "Ruby Shovel",
   "item.training.ruby_hoe": "Ruby Hoe",
   "item.training.ruby_sword": "Ruby Sword",
+
+  "item.training.ruby_helmet": "Ruby Helmet",
+  "item.training.ruby_chestplate": "Ruby Chestplate",
+  "item.training.ruby_leggings": "Ruby Leggings",
+  "item.training.ruby_boots": "Ruby Boots",
 
   "tooltip.training.ruby_block": "A Magical Block"
 }

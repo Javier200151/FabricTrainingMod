@@ -1,15 +1,10 @@
 package com.rylod.fabrictraining.registry;
 
 import com.rylod.fabrictraining.Training;
-import com.rylod.fabrictraining.registry.custom.DowsingRodItem;
-import com.rylod.fabrictraining.registry.custom.ModAxeItem;
-import com.rylod.fabrictraining.registry.custom.ModHoeItem;
-import com.rylod.fabrictraining.registry.custom.ModPickaxeItem;
+import com.rylod.fabrictraining.registry.custom.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ShovelItem;
-import net.minecraft.item.SwordItem;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -34,7 +29,7 @@ public class ModItems {
             new DowsingRodItem(new FabricItemSettings().group(ModItemGroup.RUBY).maxDamage(16)));
 
     public static final Item RUBY_SWORD = registerItems("ruby_sword",
-            new SwordItem(ModToolMaterial.RUBY, 3, 2f,
+            new ModPoisonousSwordItem(ModToolMaterial.RUBY, 3, 2f,
                     new FabricItemSettings().group(ModItemGroup.RUBY)));
 
     public static final Item RUBY_PICKAXE = registerItems("ruby_pickaxe",
@@ -51,6 +46,22 @@ public class ModItems {
 
     public static final Item RUBY_HOE = registerItems("ruby_hoe",
             new ModHoeItem(ModToolMaterial.RUBY, 1, 1.5f,
+                    new FabricItemSettings().group(ModItemGroup.RUBY)));
+
+    public static final Item RUBY_HELMET = registerItems("ruby_helmet",
+            new ModArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ModItemGroup.RUBY)));
+
+    public static final Item RUBY_CHESTPLATE = registerItems("ruby_chestplate",
+            new ArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ModItemGroup.RUBY)));
+
+    public static final Item RUBY_LEGGINGS = registerItems("ruby_leggings",
+            new ArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ModItemGroup.RUBY)));
+
+    public static final Item RUBY_BOOTS = registerItems("ruby_boots",
+            new ArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.RUBY)));
 
     public static Item registerItems(String name, Item item){
