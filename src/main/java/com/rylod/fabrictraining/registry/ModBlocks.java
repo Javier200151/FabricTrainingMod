@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
 import net.minecraft.client.item.TooltipContext;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -63,8 +64,20 @@ public class ModBlocks {
             new ModTrapdoorBlock(FabricBlockSettings.of(Material.WOOD)
                     .strength(4.0f).requiresTool().nonOpaque()), ModItemGroup.RUBY);
 
+    public static final Block WISTERIA_FLOWER = registerBlock("wisteria_flower",
+            new ModWisteriaFlowerBlock(StatusEffects.STRENGTH, 12, FabricBlockSettings.copy(Blocks.DANDELION)
+                    .strength(4.0f).nonOpaque()), ModItemGroup.RUBY);
+
+    public static final Block POTTED_WISTERIA_FLOWER = registerBlockWithoutBlockItem("potted_wisteria_flower",
+            new FlowerPotBlock(ModBlocks.WISTERIA_FLOWER, FabricBlockSettings.copy(Blocks.POTTED_ALLIUM)
+                    .nonOpaque()), ModItemGroup.RUBY);
+
+    public static Block registerBlockWithoutBlockItem(String name, Block block, ItemGroup group){
+        return Registry.register(Registry.BLOCK,new Identifier(Training.MOD_ID, name), block);
+    }
+
     public static Block registerBlock(String name, Block block, ItemGroup group){
-        registerBlockItem(name,block,group);
+        registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK,new Identifier(Training.MOD_ID, name), block);
     }
 

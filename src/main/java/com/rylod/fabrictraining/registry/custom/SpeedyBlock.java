@@ -43,6 +43,8 @@ public class SpeedyBlock extends Block {
         if(!world.isClient()) {
             if(entity instanceof LivingEntity) {
                 LivingEntity livingEntity = ((LivingEntity) entity);
+                System.out.println(livingEntity+ " livingEntity");
+                System.out.println(entity + " entity");
                 livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 300)); // 20 ticks is a second
             }
         }

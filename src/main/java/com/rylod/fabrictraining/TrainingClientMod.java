@@ -10,5 +10,7 @@ public class TrainingClientMod implements ClientModInitializer {
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RUBY_DOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.RUBY_TRAPDOOR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WISTERIA_FLOWER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_WISTERIA_FLOWER, RenderLayer.getCutout());
     }
 }
