@@ -17,8 +17,12 @@
   "block.training.ruby_trapdoor": "Ruby Trapdoor",
   "block.training.ruby_slab": "Ruby Slab",
   "block.training.ruby_stairs": "Ruby Stairs",
+  "block.training.ruby_dust": "Ruby Dust",
+  "block.training.ruby_lamp": "Ruby Lamp",
+
   "block.training.wisteria_flower": "Wisteria Flower",
   "block.training.potted_wisteria_flower": "Potted Wisteria Flower",
+
 
   "itemGroup.training.ruby": "Ruby Training Tab",
   "item.training.dowsing_rod.no_valuables": "No Valuables found!",

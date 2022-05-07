@@ -64,6 +64,9 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.RUBY, EquipmentSlot.FEET,
                     new FabricItemSettings().group(ModItemGroup.RUBY)));
 
+    public static final Item RUBY_DUST = registerItems("ruby_dust",
+            new Item(new FabricItemSettings().group(ModItemGroup.RUBY)));
+
     public static Item registerItems(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(Training.MOD_ID, name), item);
     }

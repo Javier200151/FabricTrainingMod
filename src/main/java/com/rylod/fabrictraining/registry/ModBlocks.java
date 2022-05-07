@@ -68,6 +68,11 @@ public class ModBlocks {
             new ModWisteriaFlowerBlock(StatusEffects.STRENGTH, 12, FabricBlockSettings.copy(Blocks.DANDELION)
                     .strength(4.0f).nonOpaque()), ModItemGroup.RUBY);
 
+    public static final Block RUBY_LAMP = registerBlock("ruby_lamp",
+            new RubyLampBlock(FabricBlockSettings.of(Material.METAL)
+                    .strength(4.0f).requiresTool()
+                    .luminance((state) -> state.get(RubyLampBlock.CLICKED) ? 15 : 0)), ModItemGroup.RUBY);
+
     public static final Block POTTED_WISTERIA_FLOWER = registerBlockWithoutBlockItem("potted_wisteria_flower",
             new FlowerPotBlock(ModBlocks.WISTERIA_FLOWER, FabricBlockSettings.copy(Blocks.POTTED_ALLIUM)
                     .nonOpaque()), ModItemGroup.RUBY);
