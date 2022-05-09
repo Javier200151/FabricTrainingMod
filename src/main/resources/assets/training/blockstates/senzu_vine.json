@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "age=0": { "model": "training:block/senzu_vine0" },
+    "age=1": { "model": "training:block/senzu_vine1" },
+    "age=2": { "model": "training:block/senzu_vine2" },
+    "age=3": { "model": "training:block/senzu_vine3" },
+    "age=4": { "model": "training:block/senzu_vine4" },
+    "age=5": { "model": "training:block/senzu_vine5" },
+    "age=6": { "model": "training:block/senzu_vine6" },
+    "age=7": { "model": "training:block/senzu_vine7" }
+  }
+}

@@ -5,6 +5,9 @@
   "item.training.dowsing_rod": "Dowsing Rod",
   "item.training.super_coal": "Super Coal",
   "item.training.sancocho": "Sancocho",
+  "item.training.senzu_bean": "Senzu Bean",
+  "item.training.senzu_seeds": "Senzu Seeds",
+
   "block.training.ruby_block": "Ruby Block",
   "block.training.ruby_ore": "Ruby Ore",
   "block.training.speedy_block": "Speedy Block",
@@ -19,6 +22,9 @@
   "block.training.ruby_stairs": "Ruby Stairs",
   "block.training.ruby_dust": "Ruby Dust",
   "block.training.ruby_lamp": "Ruby Lamp",
+  "block.training.winter_window": "Winter Window",
+  "block.training.senzu_vine": "Senzu Vine",
+
 
   "block.training.wisteria_flower": "Wisteria Flower",
   "block.training.potted_wisteria_flower": "Potted Wisteria Flower",
@@ -34,6 +40,7 @@
   "item.training.ruby_shovel": "Ruby Shovel",
   "item.training.ruby_hoe": "Ruby Hoe",
   "item.training.ruby_sword": "Ruby Sword",
+  "item.training.data_tablet": "Data Tablet",
 
   "item.training.ruby_helmet": "Ruby Helmet",
   "item.training.ruby_chestplate": "Ruby Chestplate",

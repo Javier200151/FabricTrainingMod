@@ -25,6 +25,9 @@ public class ModItems {
     public static final Item SANCOCHO = registerItems("sancocho",
             new Item(new FabricItemSettings().group(ModItemGroup.RUBY).food(ModFoodComponents.SANCOCHO)));
 
+    public static final Item SENZU_BEAN = registerItems("senzu_bean",
+            new Item(new FabricItemSettings().group(ModItemGroup.RUBY).food(ModFoodComponents.SENZU_BEAN)));
+
     public static final Item DOWSING_ROD = registerItems("dowsing_rod",
             new DowsingRodItem(new FabricItemSettings().group(ModItemGroup.RUBY).maxDamage(16)));
 
@@ -66,6 +69,15 @@ public class ModItems {
 
     public static final Item RUBY_DUST = registerItems("ruby_dust",
             new Item(new FabricItemSettings().group(ModItemGroup.RUBY)));
+
+    public static final Item DATA_TABLET = registerItems("data_tablet",
+            new DataTableItem(new FabricItemSettings().group(ModItemGroup.RUBY).maxCount(1)));
+
+    public static final Item SENZU_SEEDS = registerItems("senzu_seeds",
+            new AliasedBlockItem(ModBlocks.SENZU_VINE, new FabricItemSettings().group(ModItemGroup.RUBY)));
+
+    public static final Item RY_BOW = registerItems("ry_bow",
+            new BowItem(new FabricItemSettings().group(ModItemGroup.RUBY).maxDamage(650)));
 
     public static Item registerItems(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(Training.MOD_ID, name), item);

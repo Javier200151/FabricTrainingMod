@@ -73,6 +73,12 @@ public class ModBlocks {
                     .strength(4.0f).requiresTool()
                     .luminance((state) -> state.get(RubyLampBlock.CLICKED) ? 15 : 0)), ModItemGroup.RUBY);
 
+    public static final Block WINTER_WINDOW = registerBlock("winter_window",
+            new GlassBlock(FabricBlockSettings.copy(Blocks.GLASS).strength(3.0f).nonOpaque()), ModItemGroup.RUBY);
+
+    public static final Block SENZU_VINE = registerBlockWithoutBlockItem("senzu_vine",
+            new SenzuVineBlock(FabricBlockSettings.copy(Blocks.WHEAT).nonOpaque()), ModItemGroup.RUBY);
+
     public static final Block POTTED_WISTERIA_FLOWER = registerBlockWithoutBlockItem("potted_wisteria_flower",
             new FlowerPotBlock(ModBlocks.WISTERIA_FLOWER, FabricBlockSettings.copy(Blocks.POTTED_ALLIUM)
                     .nonOpaque()), ModItemGroup.RUBY);
