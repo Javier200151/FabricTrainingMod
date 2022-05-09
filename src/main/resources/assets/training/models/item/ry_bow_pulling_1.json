@@ -1,0 +1,6 @@
+{
+  "parent": "training:item/ry_bow",
+  "textures": {
+    "layer0": "training:items/ry_bow_pulling_1"
+  }
+}
